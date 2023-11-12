@@ -92,7 +92,7 @@ static const char *termcmd[]  = { "alacritty", NULL };
 static const char *browsercmd[]  = { "thorium-browser", NULL };
 static const char *filescmd[]  = { "thunar", NULL };
 static const char scratchpadname[] = "scratchpad";
-static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34", NULL };
+static const char *scratchpadcmd[] = { "alacritty", "-t", scratchpadname, NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
