@@ -5,6 +5,7 @@
 - attachassideandbelow
 - steam
 - systray
+- vanitygaps
 - viewontag
 
 ###Configuration
